@@ -1,4 +1,4 @@
-# SageMaker Deployment Project
+# Sentiment Analysis with Amazon SageMaker
 
 The notebook and Python files provided here result in a simple web app which interacts with a deployed recurrent neural network performing sentiment analysis on movie reviews. This project assumes familiarity with Amazon SageMaker, XGBoost, PyTorch, and end-to-end machine learning pipelines.
 
