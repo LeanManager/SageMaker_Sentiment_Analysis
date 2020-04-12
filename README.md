@@ -20,7 +20,7 @@ Unit test coverage:
 
 Follow these steps to build a Docker image for the training code:
 
-* Open a new terminal using a SageMaker notebook instance.
+* Open a new terminal using a SageMaker notebook instance. Make sure you are in the directory of the Dockerfile.
 
 * Log into the ECR region of the base image (see Dockerfile) using the AWS CLI. This gives us permission to download the base PyTorch container, and it depends on your region: aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 763104351884.dkr.ecr.us-east-2.amazonaws.com
 
